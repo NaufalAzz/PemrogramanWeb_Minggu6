@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Kepuasan Pelanggan - GentVault</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .report {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .review {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .review img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .stars {
+            color: gold;
+            font-size: 20px;
+        }
+
+        .feedback {
+            font-style: italic;
+            color: #555;
+        }
+
+        .comment-form {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment-form input, .comment-form textarea, .comment-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .comment-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .comment-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="report">
+        <h2>Laporan Kepuasan Pelanggan</h2>
+        <p>Berikut adalah laporan kepuasan pelanggan berdasarkan pengalaman mereka dalam berbelanja di GentVault.</p>
+        
+        <div class="review-list">
+            <div class="review">
+                <img src="cincin.avif" alt="Cincin Silver">
+                <h3>Cincin Silver</h3>
+                <p><strong>Tanggal Pembelian:</strong> 10 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★★</p>
+                <p class="feedback">"Cincinnya sangat elegan dan berkualitas tinggi! Cocok untuk acara formal maupun kasual. Saya sangat puas dengan pembelian ini!"</p>
+            </div>
+
+            <div class="review">
+                <img src="kecamata.jpg" alt="Kacamata Hitam">
+                <br><br><br>
+                <h3>Kacamata Hitam</h3>
+                <p><strong>Tanggal Pembelian:</strong> 5 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★☆</p>
+                <p class="feedback">"Desainnya keren dan terlihat premium. Namun, ukurannya sedikit lebih besar dari yang saya harapkan. Secara keseluruhan, tetap produk yang bagus!"</p>
+            </div>
+
+            <div class="review">
+                <img src="jamtangan.jpg" alt="Jam Tangan Silver">
+                <br><br><br>
+                <h3>Jam Tangan Silver</h3>
+                <p><strong>Tanggal Pembelian:</strong> 1 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★★</p>
+                <p class="feedback">"Jam tangan ini sangat stylish dan nyaman digunakan sehari-hari. Materialnya berkualitas tinggi, sangat puas dengan pembelian ini!"</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="comment-form">
+        <h2>Tambahkan Komentar Anda</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <select name="rating" required>
+                <option value="">Pilih Rating</option>
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+            </select>
+            <textarea name="comment" placeholder="Tulis komentar Anda..." rows="4" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email: contact@gentvault.com</p>
+        <p>Telepon: +62 812-3456-7890</p>
+    </footer>
+</body>
+</html>

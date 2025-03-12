@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GentVault - Aksesori Pria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Eksplor Gaya Pria Terbaik</h2>
+        <p>Temukan koleksi aksesori premium untuk pria</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</a></p>
+        <p>Telepon:+62 812-3456-7890</a></p>
+    </footer>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - GentVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+        </nav>
+    </header>
+    
+    <section class="product-page">
+        <h2>Katalog Produk</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="cincin.avif" alt="Cincin Silver">
+                <h3>Cincin Silver </h3>
+                <p>Rp 25.000</p>
+            </div>
+            <div class="product">
+                <img src="kecamata.jpg" alt="Kacamata Hitam">
+                <br><br>
+                <h3>Kacamata Hitam</h3>
+                <p>Rp 140.000</p>
+            </div>
+            <div class="product">
+                <img src="jamtangan.jpg" alt="Jam Tangan Silver">
+                <br><br>
+                <h3>Jam Tangan Silver</h3>
+                <p>Rp 350.000</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</a></p>
+        <p>Telepon:+62 812-3456-7890</a></p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - GentVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+        </nav>
+    </header>
+    
+    <section class="product-page">
+        <h2>Katalog Produk</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="cincin.avif" alt="Cincin Silver">
+                <h3>Cincin Silver </h3>
+                <p>Rp 25.000</p>
+            </div>
+            <div class="product">
+                <img src="kecamata.jpg" alt="Kacamata Hitam">
+                <br><br>
+                <h3>Kacamata Hitam</h3>
+                <p>Rp 140.000</p>
+            </div>
+            <div class="product">
+                <img src="jamtangan.jpg" alt="Jam Tangan Silver">
+                <br><br>
+                <h3>Jam Tangan Silver</h3>
+                <p>Rp 350.000</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</a></p>
+        <p>Telepon:+62 812-3456-7890</a></p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Kepuasan Pelanggan - GentVault</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .report {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .review {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .review img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .stars {
+            color: gold;
+            font-size: 20px;
+        }
+
+        .feedback {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="report">
+        <h2>Laporan Kepuasan Pelanggan</h2>
+        <p>Berikut adalah laporan kepuasan pelanggan berdasarkan pengalaman mereka dalam berbelanja di GentVault.</p>
+        
+        <div class="review-list">
+            <div class="review">
+                <img src="cincin.avif" alt="Cincin Silver">
+                <h3>Cincin Silver</h3>
+                <p><strong>Tanggal Pembelian:</strong> 10 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★★</p>
+                <p class="feedback">"Cincinnya sangat elegan dan berkualitas tinggi! Cocok untuk acara formal maupun kasual. Saya sangat puas dengan pembelian ini!"</p>
+            </div>
+
+            <div class="review">
+                <img src="kecamata.jpg" alt="Kacamata Hitam">
+                <br><br><br><br>
+                <h3>Kacamata Hitam</h3>
+                <p><strong>Tanggal Pembelian:</strong> 5 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★☆</p>
+                <p class="feedback">"Desainnya keren dan terlihat premium. Namun, ukurannya sedikit lebih besar dari yang saya harapkan. Secara keseluruhan, tetap produk yang bagus!"</p>
+            </div>
+
+            <div class="review">
+                <img src="jamtangan.jpg" alt="Jam Tangan Silver">
+                <br><br><br><br>
+                <h3>Jam Tangan Silver</h3>
+                <p><strong>Tanggal Pembelian:</strong> 1 Maret 2025</p>
+                <p><strong>Rating:</strong></p>
+                <p class="stars">★★★★★</p>
+                <p class="feedback">"Jam tangan ini sangat stylish dan nyaman digunakan sehari-hari. Materialnya berkualitas tinggi, sangat puas dengan pembelian ini!"</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</a></p>
+        <p>Telepon:+62 812-3456-7890</a></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GentVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1> GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login">
+        <form action="#" method="POST">
+            <h2>Login</h2>
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="text" name="phone" placeholder="Nomor HP" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</a></p>
+        <p>Telepon:+62 812-3456-7890</a></p>
+    </footer>
+
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero, .about, .login, .product-page {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+}
+
+.product img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.login form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

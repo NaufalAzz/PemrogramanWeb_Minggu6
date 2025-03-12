@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - GentVault</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .buy-button {
+            display: inline-block;
+            padding: 12px 18px;
+            margin-top: 15px;
+            background-color: #010101;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .buy-button:hover {
+            background-color: #3c3c3c;
+            transform: scale(1.05);
+        }
+
+        .buy-button:active {
+            transform: scale(0.95);
+        }
+
+        /* Tambahan CSS untuk halaman transaksi */
+        .transaction-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .transaction-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .transaction-container input, .transaction-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .transaction-container button {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .transaction-container button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GentVault</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="laporan.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+        </nav>
+    </header>
+    
+    <section class="product-page">
+        <h2>Katalog Produk</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="cincin.avif" alt="Cincin Silver">
+                <h3>Cincin Silver </h3>
+                <p>Rp 70.000</p>
+                <a href="transaksi.html?product=Cincin%20Silver" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="kecamata.jpg" alt="Kacamata Hitam">
+                <br><br><br>
+                <h3>Kacamata Hitam</h3>
+                <p>Rp 140.000</p>
+                <a href="transaksi.html?product=Kacamata%20Hitam" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="jamtangan.jpg" alt="Jam Tangan Silver">
+                <br><br><br>
+                <h3>Jam Tangan Silver</h3>
+                <p>Rp 350.000</p>
+                <a href="transaksi.html?product=Jam%20Tangan%20Silver" class="buy-button">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 GentVault. All rights reserved.</p>
+        <p>Email:contact@gentvault.com</p>
+        <p>Telepon:+62 812-3456-7890</p>
+    </footer>
+</body>
+</html>
